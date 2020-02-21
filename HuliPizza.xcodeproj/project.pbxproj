@@ -7,39 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008FD04D240040A1001A4D77 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD04C240040A1001A4D77 /* OrderListView.swift */; };
-		008FD04F2400412F001A4D77 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD04E2400412F001A4D77 /* MenuListView.swift */; };
-		008FD05124004193001A4D77 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD05024004193001A4D77 /* ContentHeaderView.swift */; };
-		008FD05324004DC3001A4D77 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD05224004DC3001A4D77 /* OrderRowView.swift */; };
-		008FD05524004E2A001A4D77 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD05424004E2A001A4D77 /* MenuRowView.swift */; };
-		008FD05724004E6B001A4D77 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD05624004E6B001A4D77 /* RatingsView.swift */; };
-		009E977423FE274100411AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E977323FE274100411AB3 /* AppDelegate.swift */; };
-		009E977623FE274100411AB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E977523FE274100411AB3 /* SceneDelegate.swift */; };
-		009E977823FE274100411AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E977723FE274100411AB3 /* ContentView.swift */; };
-		009E977A23FE274300411AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009E977923FE274300411AB3 /* Assets.xcassets */; };
-		009E977D23FE274300411AB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009E977C23FE274300411AB3 /* Preview Assets.xcassets */; };
-		009E978023FE274300411AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009E977E23FE274300411AB3 /* LaunchScreen.storyboard */; };
+		E1EB7E76232FFCA10073843A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E75232FFCA10073843A /* AppDelegate.swift */; };
+		E1EB7E78232FFCA10073843A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E77232FFCA10073843A /* SceneDelegate.swift */; };
+		E1EB7E7A232FFCA10073843A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E79232FFCA10073843A /* ContentView.swift */; };
+		E1EB7E7C232FFCA10073843A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EB7E7B232FFCA10073843A /* Assets.xcassets */; };
+		E1EB7E7F232FFCA10073843A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EB7E7E232FFCA10073843A /* Preview Assets.xcassets */; };
+		E1EB7E82232FFCA10073843A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EB7E80232FFCA10073843A /* LaunchScreen.storyboard */; };
+		E1EB7E8E233026A60073843A /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E8D233026A60073843A /* OrderListView.swift */; };
+		E1EB7E90233027230073843A /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E8F233027230073843A /* MenuListView.swift */; };
+		E1EB7E92233027970073843A /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E91233027970073843A /* ContentHeaderView.swift */; };
+		E1EB7E9623302E920073843A /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E9523302E920073843A /* OrderRowView.swift */; };
+		E1EB7E9823302EF30073843A /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E9723302EF30073843A /* MenuRowView.swift */; };
+		E1EB7E9A23302F370073843A /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E9923302F370073843A /* RatingsView.swift */; };
+		E1EB7E9C2330313A0073843A /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB7E9B2330313A0073843A /* PageTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		008FD04C240040A1001A4D77 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
-		008FD04E2400412F001A4D77 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
-		008FD05024004193001A4D77 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
-		008FD05224004DC3001A4D77 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
-		008FD05424004E2A001A4D77 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
-		008FD05624004E6B001A4D77 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
-		009E977023FE274100411AB3 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		009E977323FE274100411AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		009E977523FE274100411AB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		009E977723FE274100411AB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		009E977923FE274300411AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		009E977C23FE274300411AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		009E977F23FE274300411AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		009E978123FE274300411AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EB7E72232FFCA10073843A /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EB7E75232FFCA10073843A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1EB7E77232FFCA10073843A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1EB7E79232FFCA10073843A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1EB7E7B232FFCA10073843A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1EB7E7E232FFCA10073843A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1EB7E81232FFCA10073843A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1EB7E83232FFCA10073843A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EB7E8D233026A60073843A /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		E1EB7E8F233027230073843A /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		E1EB7E91233027970073843A /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		E1EB7E9523302E920073843A /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		E1EB7E9723302EF30073843A /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		E1EB7E9923302F370073843A /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		E1EB7E9B2330313A0073843A /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		009E976D23FE274100411AB3 /* Frameworks */ = {
+		E1EB7E6F232FFCA10073843A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,92 +51,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		008FD04824004046001A4D77 /* HistoryView */ = {
+		E1EB7E69232FFCA10073843A = {
+			isa = PBXGroup;
+			children = (
+				E1EB7E74232FFCA10073843A /* HuliPizza */,
+				E1EB7E73232FFCA10073843A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1EB7E73232FFCA10073843A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB7E72232FFCA10073843A /* HuliPizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1EB7E74232FFCA10073843A /* HuliPizza */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB7E79232FFCA10073843A /* ContentView.swift */,
+				E1EB7E91233027970073843A /* ContentHeaderView.swift */,
+				E1EB7E9B2330313A0073843A /* PageTitleView.swift */,
+				E1EB7E8C2330265A0073843A /* OrderView */,
+				E1EB7E8B233026500073843A /* MenuView */,
+				E1EB7E8A233026460073843A /* Model */,
+				E1EB7E89233026380073843A /* HistoryView */,
+				E1EB7E75232FFCA10073843A /* AppDelegate.swift */,
+				E1EB7E77232FFCA10073843A /* SceneDelegate.swift */,
+				E1EB7E7B232FFCA10073843A /* Assets.xcassets */,
+				E1EB7E80232FFCA10073843A /* LaunchScreen.storyboard */,
+				E1EB7E83232FFCA10073843A /* Info.plist */,
+				E1EB7E7D232FFCA10073843A /* Preview Content */,
+			);
+			path = HuliPizza;
+			sourceTree = "<group>";
+		};
+		E1EB7E7D232FFCA10073843A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB7E7E232FFCA10073843A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1EB7E89233026380073843A /* HistoryView */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
 		};
-		008FD0492400404F001A4D77 /* Model */ = {
+		E1EB7E8A233026460073843A /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		008FD04A24004055001A4D77 /* MenuView */ = {
+		E1EB7E8B233026500073843A /* MenuView */ = {
 			isa = PBXGroup;
 			children = (
-				008FD04E2400412F001A4D77 /* MenuListView.swift */,
-				008FD05424004E2A001A4D77 /* MenuRowView.swift */,
-				008FD05624004E6B001A4D77 /* RatingsView.swift */,
+				E1EB7E8F233027230073843A /* MenuListView.swift */,
+				E1EB7E9723302EF30073843A /* MenuRowView.swift */,
+				E1EB7E9923302F370073843A /* RatingsView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
 		};
-		008FD04B2400405E001A4D77 /* OrderView */ = {
+		E1EB7E8C2330265A0073843A /* OrderView */ = {
 			isa = PBXGroup;
 			children = (
-				008FD04C240040A1001A4D77 /* OrderListView.swift */,
-				008FD05224004DC3001A4D77 /* OrderRowView.swift */,
+				E1EB7E8D233026A60073843A /* OrderListView.swift */,
+				E1EB7E9523302E920073843A /* OrderRowView.swift */,
 			);
 			path = OrderView;
-			sourceTree = "<group>";
-		};
-		009E976723FE274100411AB3 = {
-			isa = PBXGroup;
-			children = (
-				009E977223FE274100411AB3 /* HuliPizza */,
-				009E977123FE274100411AB3 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		009E977123FE274100411AB3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				009E977023FE274100411AB3 /* HuliPizza.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		009E977223FE274100411AB3 /* HuliPizza */ = {
-			isa = PBXGroup;
-			children = (
-				009E977723FE274100411AB3 /* ContentView.swift */,
-				008FD05024004193001A4D77 /* ContentHeaderView.swift */,
-				008FD04B2400405E001A4D77 /* OrderView */,
-				008FD04A24004055001A4D77 /* MenuView */,
-				008FD0492400404F001A4D77 /* Model */,
-				008FD04824004046001A4D77 /* HistoryView */,
-				009E977323FE274100411AB3 /* AppDelegate.swift */,
-				009E977523FE274100411AB3 /* SceneDelegate.swift */,
-				009E977923FE274300411AB3 /* Assets.xcassets */,
-				009E977E23FE274300411AB3 /* LaunchScreen.storyboard */,
-				009E978123FE274300411AB3 /* Info.plist */,
-				009E977B23FE274300411AB3 /* Preview Content */,
-			);
-			path = HuliPizza;
-			sourceTree = "<group>";
-		};
-		009E977B23FE274300411AB3 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				009E977C23FE274300411AB3 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		009E976F23FE274100411AB3 /* HuliPizza */ = {
+		E1EB7E71232FFCA10073843A /* HuliPizza */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 009E978423FE274300411AB3 /* Build configuration list for PBXNativeTarget "HuliPizza" */;
+			buildConfigurationList = E1EB7E86232FFCA10073843A /* Build configuration list for PBXNativeTarget "HuliPizza" */;
 			buildPhases = (
-				009E976C23FE274100411AB3 /* Sources */,
-				009E976D23FE274100411AB3 /* Frameworks */,
-				009E976E23FE274100411AB3 /* Resources */,
+				E1EB7E6E232FFCA10073843A /* Sources */,
+				E1EB7E6F232FFCA10073843A /* Frameworks */,
+				E1EB7E70232FFCA10073843A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,25 +145,25 @@
 			);
 			name = HuliPizza;
 			productName = HuliPizza;
-			productReference = 009E977023FE274100411AB3 /* HuliPizza.app */;
+			productReference = E1EB7E72232FFCA10073843A /* HuliPizza.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		009E976823FE274100411AB3 /* Project object */ = {
+		E1EB7E6A232FFCA10073843A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Joshua Rosenfield";
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Steven Lipton";
 				TargetAttributes = {
-					009E976F23FE274100411AB3 = {
-						CreatedOnToolsVersion = 11.3.1;
+					E1EB7E71232FFCA10073843A = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = 009E976B23FE274100411AB3 /* Build configuration list for PBXProject "HuliPizza" */;
+			buildConfigurationList = E1EB7E6D232FFCA10073843A /* Build configuration list for PBXProject "HuliPizza" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,53 +171,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 009E976723FE274100411AB3;
-			productRefGroup = 009E977123FE274100411AB3 /* Products */;
+			mainGroup = E1EB7E69232FFCA10073843A;
+			productRefGroup = E1EB7E73232FFCA10073843A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				009E976F23FE274100411AB3 /* HuliPizza */,
+				E1EB7E71232FFCA10073843A /* HuliPizza */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		009E976E23FE274100411AB3 /* Resources */ = {
+		E1EB7E70232FFCA10073843A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009E978023FE274300411AB3 /* LaunchScreen.storyboard in Resources */,
-				009E977D23FE274300411AB3 /* Preview Assets.xcassets in Resources */,
-				009E977A23FE274300411AB3 /* Assets.xcassets in Resources */,
+				E1EB7E82232FFCA10073843A /* LaunchScreen.storyboard in Resources */,
+				E1EB7E7F232FFCA10073843A /* Preview Assets.xcassets in Resources */,
+				E1EB7E7C232FFCA10073843A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		009E976C23FE274100411AB3 /* Sources */ = {
+		E1EB7E6E232FFCA10073843A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009E977423FE274100411AB3 /* AppDelegate.swift in Sources */,
-				008FD04F2400412F001A4D77 /* MenuListView.swift in Sources */,
-				008FD04D240040A1001A4D77 /* OrderListView.swift in Sources */,
-				008FD05124004193001A4D77 /* ContentHeaderView.swift in Sources */,
-				008FD05724004E6B001A4D77 /* RatingsView.swift in Sources */,
-				008FD05524004E2A001A4D77 /* MenuRowView.swift in Sources */,
-				009E977623FE274100411AB3 /* SceneDelegate.swift in Sources */,
-				008FD05324004DC3001A4D77 /* OrderRowView.swift in Sources */,
-				009E977823FE274100411AB3 /* ContentView.swift in Sources */,
+				E1EB7E76232FFCA10073843A /* AppDelegate.swift in Sources */,
+				E1EB7E90233027230073843A /* MenuListView.swift in Sources */,
+				E1EB7E9C2330313A0073843A /* PageTitleView.swift in Sources */,
+				E1EB7E8E233026A60073843A /* OrderListView.swift in Sources */,
+				E1EB7E92233027970073843A /* ContentHeaderView.swift in Sources */,
+				E1EB7E9A23302F370073843A /* RatingsView.swift in Sources */,
+				E1EB7E9823302EF30073843A /* MenuRowView.swift in Sources */,
+				E1EB7E78232FFCA10073843A /* SceneDelegate.swift in Sources */,
+				E1EB7E9623302E920073843A /* OrderRowView.swift in Sources */,
+				E1EB7E7A232FFCA10073843A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		009E977E23FE274300411AB3 /* LaunchScreen.storyboard */ = {
+		E1EB7E80232FFCA10073843A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				009E977F23FE274300411AB3 /* Base */,
+				E1EB7E81232FFCA10073843A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -222,7 +226,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		009E978223FE274300411AB3 /* Debug */ = {
+		E1EB7E84232FFCA10073843A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +286,7 @@
 			};
 			name = Debug;
 		};
-		009E978323FE274300411AB3 /* Release */ = {
+		E1EB7E85232FFCA10073843A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -336,40 +340,40 @@
 			};
 			name = Release;
 		};
-		009E978523FE274300411AB3 /* Debug */ = {
+		E1EB7E87232FFCA10073843A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
-				DEVELOPMENT_TEAM = ZN78V2XQBG;
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HuliPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		009E978623FE274300411AB3 /* Release */ = {
+		E1EB7E88232FFCA10073843A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
-				DEVELOPMENT_TEAM = ZN78V2XQBG;
+				DEVELOPMENT_TEAM = P6DBU8DWFF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HuliPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,25 +383,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		009E976B23FE274100411AB3 /* Build configuration list for PBXProject "HuliPizza" */ = {
+		E1EB7E6D232FFCA10073843A /* Build configuration list for PBXProject "HuliPizza" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				009E978223FE274300411AB3 /* Debug */,
-				009E978323FE274300411AB3 /* Release */,
+				E1EB7E84232FFCA10073843A /* Debug */,
+				E1EB7E85232FFCA10073843A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		009E978423FE274300411AB3 /* Build configuration list for PBXNativeTarget "HuliPizza" */ = {
+		E1EB7E86232FFCA10073843A /* Build configuration list for PBXNativeTarget "HuliPizza" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				009E978523FE274300411AB3 /* Debug */,
-				009E978623FE274300411AB3 /* Release */,
+				E1EB7E87232FFCA10073843A /* Debug */,
+				E1EB7E88232FFCA10073843A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 009E976823FE274100411AB3 /* Project object */;
+	rootObject = E1EB7E6A232FFCA10073843A /* Project object */;
 }

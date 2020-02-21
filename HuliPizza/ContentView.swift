@@ -9,9 +9,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         VStack {
             ContentHeaderView()
+            PageTitleView(title: "Order Pizza")
             MenuListView()
             OrderListView()
             
@@ -29,6 +31,7 @@ struct ContentView_Previews: PreviewProvider {
                 .colorScheme(.dark)
                 .background(Color.black)
                 .previewDevice("iPad Pro (9.7-inch)")
+
         }
     }
 }

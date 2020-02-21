@@ -2,7 +2,7 @@
 //  RatingsView.swift
 //  HuliPizza
 //
-//  Created by Joshua Rosenfield on 2/21/20.
+//  Created by Joshua Rosenfield on 2/19/20.
 //  Copyright © 2020 Joshua Rosenfield. All rights reserved.
 //
 
@@ -17,6 +17,7 @@ struct RatingsView: View {
         }
     }
 }
+
 
 struct RatingsView_Previews: PreviewProvider {
     static var previews: some View {
