@@ -101,18 +101,18 @@
 		009E977223FE274100411AB3 /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				009E977723FE274100411AB3 /* ContentView.swift */,
+				008FD05024004193001A4D77 /* ContentHeaderView.swift */,
 				008FD04B2400405E001A4D77 /* OrderView */,
 				008FD04A24004055001A4D77 /* MenuView */,
 				008FD0492400404F001A4D77 /* Model */,
 				008FD04824004046001A4D77 /* HistoryView */,
 				009E977323FE274100411AB3 /* AppDelegate.swift */,
 				009E977523FE274100411AB3 /* SceneDelegate.swift */,
-				009E977723FE274100411AB3 /* ContentView.swift */,
 				009E977923FE274300411AB3 /* Assets.xcassets */,
 				009E977E23FE274300411AB3 /* LaunchScreen.storyboard */,
 				009E978123FE274300411AB3 /* Info.plist */,
 				009E977B23FE274300411AB3 /* Preview Content */,
-				008FD05024004193001A4D77 /* ContentHeaderView.swift */,
 			);
 			path = HuliPizza;
 			sourceTree = "<group>";
