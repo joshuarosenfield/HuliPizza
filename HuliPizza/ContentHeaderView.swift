@@ -2,8 +2,8 @@
 //  ContentHeaderView.swift
 //  HuliPizza
 //
-//  Created by Steven Lipton on 9/16/19.
-//  Copyright © 2019 Steven Lipton. All rights reserved.
+//  Created by Joshua Rosenfield on 2/21/20.
+//  Copyright © 2020 Steven Lipton. All rights reserved.
 //
 
 import SwiftUI
@@ -16,7 +16,7 @@ struct ContentHeaderView: View {
                 .resizable()
                 .scaledToFit()
                 Text("Huli Pizza Company")
-                .font(.title)
+                    .font(Font.custom("Avinir-Black", size:20))
                     .foregroundColor(.white)
             }
             
@@ -29,6 +29,8 @@ struct ContentHeaderView: View {
 struct ContentHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         ContentHeaderView()
+        .environment(\.sizeCategory,.accessibilityExtraExtraLarge)
+
     }
 }
 

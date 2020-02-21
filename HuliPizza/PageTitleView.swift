@@ -2,8 +2,8 @@
 //  PageTitleView.swift
 //  HuliPizza
 //
-//  Created by Steven Lipton on 9/16/19.
-//  Copyright © 2019 Steven Lipton. All rights reserved.
+//  Created by Joshua Rosenfield on 2/21/20.
+//  Copyright © 2020 Steven Lipton. All rights reserved.
 //
 
 import SwiftUI
@@ -13,6 +13,7 @@ struct PageTitleView: View {
     var body: some View {
         Text(title)
             .font(.largeTitle)
+            .fontWeight(.light)
     }
 }
 
