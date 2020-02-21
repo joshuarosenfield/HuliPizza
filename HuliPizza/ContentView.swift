@@ -2,8 +2,8 @@
 //  ContentView.swift
 //  HuliPizza
 //
-//  Created by Joshua Rosenfield on 2/19/20.
-//  Copyright © 2020 Joshua Rosenfield. All rights reserved.
+//  Created by Steven Lipton on 9/16/19.
+//  Copyright © 2019 Steven Lipton. All rights reserved.
 //
 
 import SwiftUI
