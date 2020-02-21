@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008FD04D240040A1001A4D77 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD04C240040A1001A4D77 /* OrderListView.swift */; };
+		008FD04F2400412F001A4D77 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD04E2400412F001A4D77 /* MenuListView.swift */; };
+		008FD05124004193001A4D77 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FD05024004193001A4D77 /* ContentHeaderView.swift */; };
 		009E977423FE274100411AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E977323FE274100411AB3 /* AppDelegate.swift */; };
 		009E977623FE274100411AB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E977523FE274100411AB3 /* SceneDelegate.swift */; };
 		009E977823FE274100411AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E977723FE274100411AB3 /* ContentView.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		008FD04C240040A1001A4D77 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		008FD04E2400412F001A4D77 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		008FD05024004193001A4D77 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
 		009E977023FE274100411AB3 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009E977323FE274100411AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009E977523FE274100411AB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		008FD04824004046001A4D77 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		008FD0492400404F001A4D77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		008FD04A24004055001A4D77 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				008FD04E2400412F001A4D77 /* MenuListView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		008FD04B2400405E001A4D77 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				008FD04C240040A1001A4D77 /* OrderListView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
 		009E976723FE274100411AB3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +92,10 @@
 		009E977223FE274100411AB3 /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				008FD04B2400405E001A4D77 /* OrderView */,
+				008FD04A24004055001A4D77 /* MenuView */,
+				008FD0492400404F001A4D77 /* Model */,
+				008FD04824004046001A4D77 /* HistoryView */,
 				009E977323FE274100411AB3 /* AppDelegate.swift */,
 				009E977523FE274100411AB3 /* SceneDelegate.swift */,
 				009E977723FE274100411AB3 /* ContentView.swift */,
@@ -63,6 +103,7 @@
 				009E977E23FE274300411AB3 /* LaunchScreen.storyboard */,
 				009E978123FE274300411AB3 /* Info.plist */,
 				009E977B23FE274300411AB3 /* Preview Content */,
+				008FD05024004193001A4D77 /* ContentHeaderView.swift */,
 			);
 			path = HuliPizza;
 			sourceTree = "<group>";
@@ -147,6 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				009E977423FE274100411AB3 /* AppDelegate.swift in Sources */,
+				008FD04F2400412F001A4D77 /* MenuListView.swift in Sources */,
+				008FD04D240040A1001A4D77 /* OrderListView.swift in Sources */,
+				008FD05124004193001A4D77 /* ContentHeaderView.swift in Sources */,
 				009E977623FE274100411AB3 /* SceneDelegate.swift in Sources */,
 				009E977823FE274100411AB3 /* ContentView.swift in Sources */,
 			);
