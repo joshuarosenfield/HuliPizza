@@ -3,8 +3,7 @@
 //  HuliPizza
 //
 //  Created by Joshua Rosenfield on 2/21/20.
-//  Copyright © 2020 Steven Lipton. All rights reserved.
-//
+
 
 import UIKit
 import SwiftUI

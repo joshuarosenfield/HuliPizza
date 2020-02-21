@@ -362,14 +362,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
-				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				DEVELOPMENT_TEAM = ZN78V2XQBG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HuliPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -382,14 +382,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
-				DEVELOPMENT_TEAM = P6DBU8DWFF;
+				DEVELOPMENT_TEAM = ZN78V2XQBG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HuliPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
