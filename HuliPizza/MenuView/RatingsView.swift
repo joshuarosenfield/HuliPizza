@@ -1,5 +1,5 @@
 //
-//  OrderListView.swift
+//  RatingsView.swift
 //  HuliPizza
 //
 //  Created by Joshua Rosenfield on 2/21/20.
@@ -8,21 +8,18 @@
 
 import SwiftUI
 
-struct OrderListView: View {
+struct RatingsView: View {
     var body: some View {
-        VStack {
-            Text("Your Order")
-            List(0..<5){item in
-                OrderRowView()
+        HStack {
+            ForEach(0..<4){item in
+                Image("Pizza Slice")
             }
         }
     }
 }
 
-struct OrderListView_Previews: PreviewProvider {
+struct RatingsView_Previews: PreviewProvider {
     static var previews: some View {
-        OrderListView()
+        RatingsView()
     }
 }
-
-
