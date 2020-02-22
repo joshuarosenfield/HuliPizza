@@ -12,8 +12,10 @@ struct ContentHeaderView: View {
         VStack {
           ZStack{
                 Image("Surf Board")
-                .resizable()
-                .scaledToFit()
+                    .resizable()
+                    .scaledToFit()
+                //    .scaledToFill()
+                    .frame(minWidth:300, idealWidth:500, maxWidth:600, minHeight:75, idealHeight:143, maxHeight:150, alignment:.center)
                 Text("Huli Pizza Company")
                     .font(Font.custom("Avinir-Black", size:20))
                     .foregroundColor(.white)
