@@ -2,14 +2,13 @@
 //  MenuDetailView.swift
 //  Pizza
 //
-//  Created by Steven Lipton on 9/2/19.
-//  Copyright © 2019 Steven Lipton. All rights reserved.
-//
+//  Created by Joshua Rosenfield on 2/21/20.
 
 import SwiftUI
 ///A `View`for entering in an order. Takes basic information about the order from `menuItem`
 struct MenuDetailView: View {
-    @Binding var orderModel:OrderModel
+    @EnvironmentObject var settings:UserPreferences
+    @ObservedObject var orderModel:OrderModel
     var menuItem:MenuItem
     var formattedPrice:String{
         String(format:"%3.2f",menuItem.price)
@@ -36,7 +35,7 @@ struct MenuDetailView: View {
             HStack{
                 Spacer()
                 Text("Pizza size")
-                Text("Small")
+                Text(settings.size.formatted())
             }
             .font(.headline)
             HStack{
@@ -76,6 +75,6 @@ struct MenuDetailView: View {
 
 struct MenuDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuDetailView(orderModel:.constant(OrderModel()), menuItem: testMenuItem)
+        MenuDetailView(orderModel:OrderModel(), menuItem: testMenuItem)
     }
 }

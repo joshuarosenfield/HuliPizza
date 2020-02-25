@@ -1,7 +1,7 @@
 
 
 import Foundation
-
+import Combine
 
 ///  A type for size of pizzas with a mutiplier to the price as a raw value.
 enum Size:Double{
@@ -49,9 +49,9 @@ struct OrderItem:Identifiable{
 }
 
 /// The Model for holding an order
-class OrderModel{
+class OrderModel:ObservableObject{
     let menu = MenuModel()
-    var orders:[OrderItem] = []
+    @Published var orders:[OrderItem] = []
     var lastID:Int = -1
     
     /// Creates a newID based on the last known ID
@@ -125,7 +125,7 @@ let testOrderItem = OrderItem(id: 1, menuID: 1, name: "Huli Chicken", comments: 
 
 
 ///An class for user preferences in ordering. Will be used with an environment object.
-class UserPreferences{
-    var size:Size = .small
+class UserPreferences:ObservableObject{
+    @Published var size:Size = .medium
 }
 
