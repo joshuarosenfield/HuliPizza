@@ -4,7 +4,6 @@
 //
 //  Created by Joshua Rosenfield on 2/21/20.
 
-
 import SwiftUI
 
 struct ContentView: View {
